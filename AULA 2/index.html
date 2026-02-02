@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="formulario">
     <form method="post" action="processar.php">
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -22,22 +23,30 @@
             <label for="idade">Idade</label>
             <input type="number" name="idade" id="idade" min="18" max="120">
 
-            <br><br>
+            <br><br> i like dikcs
+
+
 
             <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" required>
         </fieldset>
+        
+        <br><br>
+
+        <fieldset>
+            <legend>Termos</legend>
+            <label for="Termos">
+                <input type="checkbox" name="termos" id="termos" required>
+                Aceito os termos e condiçoes
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+        <button type="reset">limpar</button>
     </form>
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
 </body>
